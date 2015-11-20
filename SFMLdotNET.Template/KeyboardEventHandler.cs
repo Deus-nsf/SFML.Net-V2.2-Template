@@ -58,6 +58,10 @@ namespace Template
 					window.Close();
 					break;
 
+				case Keyboard.Key.B:
+					/*You can insert actions here for that particular case*/
+					break;
+
 				case Keyboard.Key.Delete:
 					/*You can insert actions here for that particular case*/
 					break;

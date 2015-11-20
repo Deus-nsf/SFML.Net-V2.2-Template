@@ -46,9 +46,9 @@ namespace Template
 		/// <summary>
 		/// The list of actions performed for a key pressed
 		/// </summary>
-		public static void KeyPressedActions(RenderWindow window, KeyEventArgs keyFirst)
+		public static void KeyPressedActions(RenderWindow window, KeyEventArgs keyMachin)
 		{
-			switch (keyFirst.Code)
+			switch (keyMachin.Code)
 			{
 				case Keyboard.Key.Escape:
 					window.Close();

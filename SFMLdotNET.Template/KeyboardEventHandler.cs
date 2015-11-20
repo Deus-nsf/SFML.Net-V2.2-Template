@@ -105,5 +105,28 @@ namespace Template
 					break;
 			}
 		}
+
+
+		/// <summary>
+		/// The list of actions performed for a key released
+		/// </summary>
+		public static void KeyPouet(RenderWindow window, KeyEventArgs keyReleased)
+		{
+			switch (keyReleased.Code)
+			{
+				case Keyboard.Key.Delete:
+					/*You can insert actions here for that particular case*/
+					break;
+
+				case Keyboard.Key.A:
+					/*You can insert actions here for that particular case*/
+					break;
+
+				/*Etc...*/
+
+				default:
+					break;
+			}
+		}
 	}
 }

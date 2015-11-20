@@ -34,14 +34,10 @@ namespace Template
 
 			if (Keyboard.IsKeyPressed(Keyboard.Key.Right))
 				vector.X += factor;
-//<<<<<<< HEAD
-            
-//=======
             if (Keyboard.IsKeyPressed(Keyboard.Key.Left))
 				vector.X -= factor;
 			if (Keyboard.IsKeyPressed(Keyboard.Key.A))
 				vector.X *= factor;
-//>>>>>>> refs/remotes/origin/SecondTrain
 			if (Keyboard.IsKeyPressed(Keyboard.Key.Down))
 				vector.Y += factor;
         }
@@ -56,6 +52,14 @@ namespace Template
 			{
 				case Keyboard.Key.Escape:
 					window.Close();
+					break;
+
+				case Keyboard.Key.Delete:
+					/*You can insert actions here for that particular case*/
+					break;
+
+				case Keyboard.Key.A:
+					/*You can insert actions here for that particular case*/
 					break;
 
 				/*Etc...*/

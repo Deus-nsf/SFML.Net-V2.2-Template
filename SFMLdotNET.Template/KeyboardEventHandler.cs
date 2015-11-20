@@ -29,9 +29,6 @@ namespace Template
 		/// </summary>
 		public static void KeyStateActions(RenderWindow window)
 		{
-			MyShapes.myCircle3.Position += vector;
-			vector.X = 0f; vector.Y = 0f;
-
 			if (Keyboard.IsKeyPressed(Keyboard.Key.Right))
 				vector.X += factor;
 <<<<<<< HEAD
@@ -39,13 +36,14 @@ namespace Template
 =======
             if (Keyboard.IsKeyPressed(Keyboard.Key.Left))
 				vector.X -= factor;
-			if (Keyboard.IsKeyPressed(Keyboard.Key.A))
-				vector.X *= factor;
 			if (Keyboard.IsKeyPressed(Keyboard.Key.Up))
 				vector.Y -= factor;
 >>>>>>> refs/remotes/origin/SecondTrain
 			if (Keyboard.IsKeyPressed(Keyboard.Key.Down))
 				vector.Y += factor;
+
+			MyShapes.myCircle3.Position += vector;
+			vector.X = 0f; vector.Y = 0f;
         }
 
 

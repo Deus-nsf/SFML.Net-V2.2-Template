@@ -46,9 +46,15 @@ namespace Template
 		/// <summary>
 		/// The list of actions performed for a key pressed
 		/// </summary>
+<<<<<<< HEAD
 		public static void KeyPressedActions(RenderWindow window, KeyEventArgs keyMachin)
 		{
 			switch (keyMachin.Code)
+=======
+		public static void KeyPressedActions(RenderWindow window, KeyEventArgs keyBidule)
+		{
+			switch (keyBidule.Code)
+>>>>>>> refs/remotes/origin/SecondTrain
 			{
 				case Keyboard.Key.Escape:
 					window.Close();

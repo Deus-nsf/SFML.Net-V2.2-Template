@@ -71,29 +71,6 @@ namespace Template
 
 
 		/// <summary>
-		/// The list of actions performed for a key released
-		/// </summary>
-		public static void KeyReleasedActions(RenderWindow window, KeyEventArgs keyReleased)
-		{
-			switch (keyReleased.Code)
-			{
-				case Keyboard.Key.Delete:
-					/*You can insert actions here for that particular case*/
-					break;
-
-				case Keyboard.Key.A:
-					/*You can insert actions here for that particular case*/
-					break;
-
-				/*Etc...*/
-
-				default:
-					break;
-			}
-		}
-
-
-		/// <summary>
 		/// The list of actions performed for a character entered
 		/// </summary>
 		public static void TextEnteredActions(RenderWindow window, TextEventArgs charEntered)

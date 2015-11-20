@@ -34,14 +34,10 @@ namespace Template
 
 			if (Keyboard.IsKeyPressed(Keyboard.Key.Right))
 				vector.X += factor;
-//<<<<<<< HEAD
-            
-//=======
             if (Keyboard.IsKeyPressed(Keyboard.Key.Left))
 				vector.X -= factor;
 			if (Keyboard.IsKeyPressed(Keyboard.Key.A))
 				vector.X *= factor;
-//>>>>>>> refs/remotes/origin/SecondTrain
 			if (Keyboard.IsKeyPressed(Keyboard.Key.Down))
 				vector.Y += factor;
         }
@@ -50,30 +46,15 @@ namespace Template
 		/// <summary>
 		/// The list of actions performed for a key pressed
 		/// </summary>
-<<<<<<< HEAD
-		public static void KeyPressedActions(RenderWindow window, KeyEventArgs keySecond)
-		{
-			switch (keySecond.Code)
-=======
 		public static void KeyPressedActions(RenderWindow window, KeyEventArgs keyFirst)
 		{
 			switch (keyFirst.Code)
->>>>>>> refs/remotes/origin/FirstTrain
 			{
 				case Keyboard.Key.Escape:
 					window.Close();
 					break;
 
-<<<<<<< HEAD
-				case Keyboard.Key.B:
-					/*You can insert actions here for that particular case*/
-					break;
-
 				case Keyboard.Key.Delete:
-					/*You can insert actions here for that particular case*/
-					break;
-
-				case Keyboard.Key.Num0:
 					/*You can insert actions here for that particular case*/
 					break;
 
@@ -81,8 +62,6 @@ namespace Template
 					/*You can insert actions here for that particular case*/
 					break;
 
-=======
->>>>>>> refs/remotes/origin/FirstTrain
 				/*Etc...*/
 
 				default:

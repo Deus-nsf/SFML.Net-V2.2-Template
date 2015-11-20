@@ -31,10 +31,7 @@ namespace Template
 		{
 			if (Keyboard.IsKeyPressed(Keyboard.Key.Right))
 				vector.X += factor;
-            if (Keyboard.IsKeyPressed(Keyboard.Key.Left))
-				vector.X -= factor;
-			if (Keyboard.IsKeyPressed(Keyboard.Key.Up))
-				vector.Y -= factor;
+            
 			if (Keyboard.IsKeyPressed(Keyboard.Key.Down))
 				vector.Y += factor;
 

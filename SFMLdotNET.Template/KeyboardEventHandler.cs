@@ -50,24 +50,12 @@ namespace Template
 		/// <summary>
 		/// The list of actions performed for a key pressed
 		/// </summary>
-		public static void KeyPressedActions(RenderWindow window, KeyEventArgs keyPoueted)
+		public static void KeyPressedActions(RenderWindow window, KeyEventArgs keyFirst)
 		{
-			switch (keyPoueted.Code)
+			switch (keyFirst.Code)
 			{
 				case Keyboard.Key.Escape:
 					window.Close();
-					break;
-
-				case Keyboard.Key.B:
-					/*You can insert actions here for that particular case*/
-					break;
-
-				case Keyboard.Key.Delete:
-					/*You can insert actions here for that particular case*/
-					break;
-
-				case Keyboard.Key.A:
-					/*You can insert actions here for that particular case*/
 					break;
 
 				/*Etc...*/
